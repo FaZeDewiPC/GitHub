@@ -1,0 +1,6 @@
+var automeme = require('automeme');
+ 
+automeme.getMeme('html.json', 50, function(err, meme) {
+  if (err) return console.error(err);
+  console.log(meme);
+});
